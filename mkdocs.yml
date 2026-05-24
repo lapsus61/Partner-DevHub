@@ -1,9 +1,3 @@
 site_name: Partner DevDocs
-docs_dir: '.'
-site_dir: '_site'
 theme:
   name: material
-
-exclude_docs: |
-  .github/**/*
-  README.md
