@@ -9,8 +9,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      # Riga magica: crea la cartella docs e ci sposta dentro tutti i file .md della pagina principale
-      - run: mkdir -p docs && find . -maxdepth 1 -name "*.md" -exec mv {} docs/ \;
+      # Sposta i file .md e anche la cartella delle immagini dentro docs prima del build
+      - run: |
+          mkdir -p docs
+          find . -maxdepth 1 -name "*.md" -exec mv {} docs/ \;
+          if [ -d "immagini" ]; then mv immagini docs/; fi
       
       - uses: actions/setup-python@v5
         with:
