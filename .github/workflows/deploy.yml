@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      # Riga magica: crea la cartella docs e ci sposta dentro tutti i file .md della pagina principale
+      - run: mkdir -p docs && find . -maxdepth 1 -name "*.md" -exec mv {} docs/ \;
+      
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
