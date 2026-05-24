@@ -1,24 +1,3 @@
 site_name: Partner DevDocs
-
-# Configurazione del tema
 theme:
   name: material
-  language: it
-  palette:
-    primary: indigo
-    accent: blue
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.top
-    - toc.follow
-
-# Plugin attivi
-plugins:
-  - search
-
-# markdown_extensions
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
