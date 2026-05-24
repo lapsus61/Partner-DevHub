@@ -1,5 +1,4 @@
-site_name: Documentazione Partner AAS
-docs_dir: '.'
+site_name: Partner DevDocs
 
 # Configurazione del tema
 theme:
