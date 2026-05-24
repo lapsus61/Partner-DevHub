@@ -133,5 +133,5 @@ Fornita la key del movimento di magazzino,restituisce la dbr.qta totale delle ri
  Per far cio', inserisco una riga nel file w30 relativa al carico C01 che mi interessa  con KCOM$ valorizzata a zero                  
    
  call "rwusdb:: SUB_G03_INIT","x0 | Key movimento aaaammggnnnnnnctr |  
-!!! info    "*Documentazione Partner - Developer kit*"
+!!! info "*Documentazione Partner - Developer kit*"
     *Specifica aggiornata il 24/05/2026 alle ore 20:59:30 in ambiente Oblivion/ECHO*
