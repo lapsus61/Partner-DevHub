@@ -9,9 +9,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      # Pulisce gli spazi invisibili e sposta i file .md e la cartella immagini dentro docs
+      # Routine di pulizia totale automatica: corregge spazi invisibili e indenta i riquadri info
       - run: |
           find . -maxdepth 1 -name "*.md" -exec sed -i 's/\xc2\xa0/ /g' {} \;
+          find . -maxdepth 1 -name "*.md" -exec sed -i -E 's/^!!! info[[:space:]]+/!!! info /g' {} \;
+          find . -maxdepth 1 -name "*.md" -exec sed -i -E 's/^[[:space:]]+\*(Specifica aggiornata il.*)\*/    *\1*/g' {} \;
+          if [ -d "Immagini" ]; then mv Immagini immagini; fi
           mkdir -p docs
           find . -maxdepth 1 -name "*.md" -exec mv {} docs/ \;
           if [ -d "immagini" ]; then mv immagini docs/; fi
