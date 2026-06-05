@@ -8,3 +8,10 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - md_in_html
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: datetime
+      timezone: Europe/Rome
