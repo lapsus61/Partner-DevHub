@@ -3,7 +3,7 @@ title: "**delete**"
 description:
 ---
 ![LogoRdep](./immagini/RDePPartnerEnterprise.png)
-# (MKY)**delete**
+# "**delete**"
 Keywords
 
 rwusdb::SUB_SVILUPPA_COSTO_FLEX:
