@@ -1,5 +1,5 @@
 ---
-title: "**delete**"
+title: "delete"
 description:
 ---
 ![LogoRdep](./immagini/RDePPartnerEnterprise.png)
