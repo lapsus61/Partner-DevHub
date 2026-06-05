@@ -1,8 +1,11 @@
----   
+---
+![LogoRdep](./immagini/RDePPartnerEnterprise.png)
+
+   
 title: Aggiornamento anagrafica articoli    
 description: Aggiornamento anagrafica articoli 
 ---   
-![LogoRdep](./immagini/RDePPartnerEnterprise.png)
+
 
 Keywords  [AR][CST][Costi]
 
