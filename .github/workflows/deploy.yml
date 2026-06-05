@@ -8,8 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
-      # Routine di pulizia totale automatica: corregge spazi invisibili e indenta i riquadri info
+        with:
+          fetch-depth: 0
+          
       - run: |
           find . -maxdepth 1 -name "*.md" -exec sed -i 's/\xc2\xa0/ /g' {} \;
           find . -maxdepth 1 -name "*.md" -exec sed -i -E 's/^!!! info[[:space:]]+/!!! info /g' {} \;
@@ -18,9 +19,11 @@ jobs:
           mkdir -p docs
           find . -maxdepth 1 -name "*.md" -exec mv {} docs/ \;
           if [ -d "immagini" ]; then mv immagini docs/; fi
-      
+          
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-     - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin
+          
+      - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin
+      
       - run: mkdocs gh-deploy --force
