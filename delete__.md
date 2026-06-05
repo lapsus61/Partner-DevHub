@@ -1,5 +1,5 @@
 ---   
-title:(MKY)**delete**   
+title: **delete**   
 description:   
 ---   
 ![LogoRdep](./immagini/RDePPartnerEnterprise.png)
