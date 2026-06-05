@@ -1,5 +1,5 @@
 ---   
-title:Aggiornamento anagrafica articoli    
+title: Aggiornamento anagrafica articoli    
 description: Aggiornamento anagrafica articoli 
 ---   
 ![LogoRdep](./immagini/RDePPartnerEnterprise.png)
