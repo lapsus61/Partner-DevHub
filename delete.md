@@ -1,8 +1,8 @@
 ---
-title: "delete"
+title: "delete - obsoleta"
 description: elemento da cancellare
 ---
-# delete
+# delete - obsoleta
 
 ![LogoRdep](./immagini/RDePPartnerEnterprise.png)
 
