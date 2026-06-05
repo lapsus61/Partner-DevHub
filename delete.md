@@ -1,6 +1,6 @@
 ---
 title: "delete"
-description:
+description: elemento da cancellare
 ---
 ![LogoRdep](./immagini/RDePPartnerEnterprise.png)
 
