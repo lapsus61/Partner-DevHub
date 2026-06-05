@@ -1,6 +1,7 @@
 ---
-title: A partire dal file 'sorgente' indicato in ingresso duplica tutti i campi contrassegnati dall'indicat   
-description: A partire dal file 'sorgente' indicato in ingresso duplica tutti i campi contrassegnati dall'indicatore #repeat [ARC][REPEAT][BRC]  
+title: A partire dal file 'sorgente' indicato in ingresso duplica tutti i campi contrassegnati dall'indicat
+description: A partire dal file 'sorgente' indicato in ingresso duplica tutti i campi contrassegnati dall'indicatore
+#repeat [ARC][REPEAT][BRC]
 ---
 ![LogoRdep](./immagini/RDePPartnerEnterprise.png)
 
