@@ -2,9 +2,9 @@
 title: "delete"
 description: elemento da cancellare
 ---
-![LogoRdep](./immagini/RDePPartnerEnterprise.png)
-
 # delete
+
+![LogoRdep](./immagini/RDePPartnerEnterprise.png)
 
 Keywords
 
