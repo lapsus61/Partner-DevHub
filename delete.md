@@ -4,6 +4,8 @@ description: elemento da cancellare
 ---
 ![LogoRdep](./immagini/RDePPartnerEnterprise.png)
 
+# delete
+
 Keywords
 
 rwusdb::SUB_SVILUPPA_COSTO_FLEX:
